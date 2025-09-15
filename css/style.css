@@ -1,4 +1,18 @@
 .titre {
     color : red;
     padding: 3rem;
+    text-align : center;
+}
+p ::first-letter{
+    font-size: 2rem;
+    font-style : italic;
+}
+p {
+ text-align: justify;
+}
+#paragraph1 ::first-letter {
+    color : purple; 
+}
+#paragraph2, #paragraph3, #paragraph4 ::first-letter {
+    color : green;
 }
