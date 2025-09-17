@@ -1,0 +1,17 @@
+.titre 
+{
+    color : red;
+    padding: 3em;
+    text-align : center;
+}
+.paragraphe ::first-letter
+{
+    font-size: 5em;
+    font-style : italic;
+    color : blue;
+}
+p 
+{
+ text-align: justify;
+}
+
