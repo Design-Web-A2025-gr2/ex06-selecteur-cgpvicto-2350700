@@ -1,17 +1,58 @@
-.titre 
+#titrePage 
 {
     color : red;
     padding: 3em;
     text-align : center;
 }
-.paragraphe ::first-letter
+p::first-letter
 {
-    font-size: 5em;
+    font-size: 2em;
     font-style : italic;
-    color : blue;
+    text-align: justify;
 }
-p 
+#paragraphe1::first-letter
 {
- text-align: justify;
+    color :purple;
 }
-
+#paragraphe2::first-letter
+{
+    color: green;
+}
+#paragraphe3::first-letter
+{
+    color: green;
+}
+#paragraphe4::first-letter
+{
+    color: green;
+}
+#paragraphe5::first-letter
+{
+    color: green;
+}
+#Consigne:hover
+{
+    color :blue;
+}
+a
+{
+    color :black;
+    text-decoration: wavy underline;
+    text-decoration-color:red
+}
+a:hover
+{
+    background-color: yellow;
+    text-decoration: none;
+}
+.paragraph
+{
+    border-width: 2px;
+    background-image: url("./image/ex04_image_fond.jpg");
+    border-style:solid;
+    border-color: #daa520;
+    border-radius: 10px;
+    padding:10px;
+    width: 40%;
+    box-shadow: 5px 5px 5px 15px lightgray;
+}
